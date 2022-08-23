@@ -1,0 +1,12 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+  min-height: 100vh;
+}

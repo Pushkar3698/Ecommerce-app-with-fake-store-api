@@ -1,0 +1,22 @@
+.product-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.filter-btn {
+  margin: 0 10px;
+  padding: 5px 21px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 15px;
+  transition: 0.1s all ease;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: lightcoral;
+  color: white;
+}
